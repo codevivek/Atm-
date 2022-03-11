@@ -1,0 +1,13 @@
+		getline(Myfile, tabAccounts[i].accNum);
+		getline(Myfile, tabAccounts[i].client);
+		getline(Myfile, tabAccounts[i].pin);
+		//tabAccounts[i].balance = stof(temp);
+		Myfile.ignore();
+		i++;
+
+	}
+	cout << tabAccounts[i].accNum;
+	cout << tabAccounts[i].client;
+	cout << tabAccounts[i].pin;
+	//Myfile.close();
+	i++;
